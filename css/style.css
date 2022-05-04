@@ -6,6 +6,11 @@ body{
     background-color: #1bb4cf;
 }
 
+.rounded-circle{
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
 .quem-somos{
     color: white;
     background-color:#eeab1b;
@@ -17,6 +22,21 @@ body{
 }
 
 .parceiros{
-    color: white;
+    color: rgb(155, 153, 153);
     background-color: rgb(170, 235, 189);
+}
+
+section{
+    border: 3px solid black;
+    border-radius:0;
+}
+
+.imgserv{
+    border: 3px solid black;
+    border-radius: 5%;
+}
+
+.bg-footer{
+    background-color: black;
+    color: white;
 }
